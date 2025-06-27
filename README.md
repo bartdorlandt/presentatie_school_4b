@@ -6,6 +6,8 @@
 - Pillow library for image processing
 - Tkinter for GUI
 
+> Pyenv and 3.12 are required because of pillow and tkinter. They don't support uv.
+
 ## Setup
 ```bash
 brew install tcl-tk@8 pyenv
