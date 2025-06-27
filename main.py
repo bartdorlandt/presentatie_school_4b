@@ -14,9 +14,9 @@ MESSAGES = [
     "Hey {name},\n ik wens jou een hele vrolijke middag!",
     "Zon of niet, {name}, jij laat mijn dag stralen ☀️",
     "Hoi {name}, ik wens jou een fijne rustige en productieve dag!",
-    "Hallootjes, {name}! Jij bent geweldig bezig 💪",
-    "Wow {name}, wat een mooie dag om te genieten van het leven!",
-    "Goedemiddag, {name}! Jij maakt de wereld een beetje mooier 🌍",
+    "Hallootjes, {name}!\nJij bent geweldig bezig 💪",
+    "Wow {name},\nwat een mooie dag om te genieten van het leven!",
+    "Goedemiddag, {name}!\nJij maakt de wereld een beetje mooier 🌍",
 ]
 
 # Directory where background images are stored
