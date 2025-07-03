@@ -43,7 +43,7 @@ def show_gui(name):
     root.title("Goedemiddag topper!")
 
     # Set full screen size
-    screen_width = int(root.winfo_screenwidth() / 4)
+    screen_width = int(root.winfo_screenwidth() / 2)
     screen_height = int(root.winfo_screenheight() / 2)
     root.geometry(f"{screen_width}x{screen_height}")
 
