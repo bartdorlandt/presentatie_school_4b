@@ -24,6 +24,15 @@ pip install --upgrade pip
 pip install --no-binary :all: pillow
 ```
 
+Set the environment variable for the display:
+
+```bash
+set -Ux PATH /opt/homebrew/opt/tcl-tk@8.6/bin $PATH
+set -Ux LDFLAGS "-L/opt/homebrew/opt/tcl-tk@8.6/lib"
+set -Ux CPPFLAGS "-I/opt/homebrew/opt/tcl-tk@8.6/include"
+set -Ux PKG_CONFIG_PATH "/opt/homebrew/opt/tcl-tk@8.6/lib/pkgconfig"
+```
+
 # Run the Application
 ```bash
 ./main.py <name>
